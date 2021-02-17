@@ -392,6 +392,58 @@ footer{
     text-align:center;
   }
 }
+    /* Blog */
+
+.section-header{
+        margin-top: 40px;
+}
+.section-header p{
+        font-size: 16px;
+        font-weight: 500;
+        width: 80vw;
+        font-style: italic;
+}
+
+#blog-blog-list{
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+}
+
+.single-blog{
+        flex: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        
+    
+}
+
+.single-blog h2{
+        font-size: 20px;
+        font-weight: 600;
+        margin: 5px;
+        text-align: center;
+}
+
+.single-blog img{
+        width: 100%;
+}
+
+.single-blog a {
+        background-color: #C2B97F;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 2px;
+        margin-bottom: 50px;
+
+}
+.single-blog p{
+    margin: 20px 0;
+    font-size: 14px;
+}
 @media only screen and (max-width: 480px){
 #lead-content h1{
     font-size:1.5em;
@@ -403,3 +455,71 @@ footer{
     font-size:0.9em;padding:5px 10px;
    }
 }
+/* Blog list */
+.section-header{
+    margin-top: 80px;
+}
+
+.section-header p{
+    font-size: 25px;
+    font-weight: 500;
+    width: 50vw;
+    font-style: italic;
+}
+
+#blog-blog-list{
+    display: flex;
+    margin-top: 50px;
+}
+
+.single-blog{
+    flex: 40%;
+    padding: 3%;
+    margin: 2%;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.15);
+    border-radius: 5px;
+}
+
+.single-blog h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #88665D;
+}
+
+.single-blog img{
+ height: 200px;
+}
+
+.single-blog a {
+    background-color: #C2B97F;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 2px;
+
+}
+
+.single-blog p{
+    margin: 50px 0;
+    font-size: 15px;
+}
+
+/* Work List */
+.empty-template{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empty-template img{
+    width: 30vw;
+}
+
+.empty-template p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #88665D;
+}
+
